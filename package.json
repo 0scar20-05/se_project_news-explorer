@@ -1,0 +1,19 @@
+{
+  "name": "hello-vite",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --open",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --max-warnings 0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.1.2",
+    "vite": "^5.3.1"
+  },
+  "dependencies": {
+    "react-router-dom": "^7.10.1"
+  }
+}

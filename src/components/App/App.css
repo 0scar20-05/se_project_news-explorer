@@ -1,0 +1,48 @@
+@import url(../../vendors/fonts.css);
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.page {
+  margin: 0 auto;
+  padding: 0;
+  max-width: 1400px;
+  font-family: "Roboto", serif;
+  font-weight: 400;
+  font-size: 18px;
+  min-height: 100vh;
+}
+
+.page__content {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  max-width: 1400px;
+  position: relative;
+}
+
+h1 {
+  font-family: "Roboto Slab", serif;
+  font-weight: 400;
+}
+
+@media (max-width: 1154px) {
+  .page {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 616px) {
+  .page {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 362px) {
+  .page {
+    font-size: 14px;
+  }
+}

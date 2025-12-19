@@ -1,0 +1,25 @@
+.profile__logout-btn {
+  border: none;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  padding: 28px 36px;
+  font-size: 36px;
+  border-radius: 5px;
+  margin: 20px auto;
+}
+
+.profile__logout-btn:hover {
+  background-color: black;
+}
+
+.modal__content_profile {
+  background-color: white;
+  position: relative;
+  max-width: 250px;
+  box-sizing: border-box;
+  width: 100%;
+  border-radius: 16px;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
+}
