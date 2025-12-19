@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # se_project_news-explorer
 
 A website that lets users search for news articles by keyword and save selected articles to a separate page.
@@ -25,3 +26,6 @@ A website that lets users search for news articles by keyword and save selected 
 In [this video](https://drive.google.com/file/d/1rr0u1Jy2zrJwtzKA-j0kmsUnotuwPRml/view?usp=sharing) I explain my project and some of the process of building it.
 
 [Deployment Link]()
+=======
+# se_project_news-explorer
+>>>>>>> main
