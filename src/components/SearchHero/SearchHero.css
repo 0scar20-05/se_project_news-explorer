@@ -1,0 +1,75 @@
+.search-hero {
+  position: relative;
+  width: 100%;
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.search-hero__background {
+  position: absolute;
+  inset: 0;
+  background-image: url("../../assets/images/HeroBackground.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: brightness(0.7) saturate(0.9);
+}
+
+.search-hero__content {
+  position: relative;
+  z-index: 1;
+  max-width: 800px;
+  text-align: center;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.search-hero__title {
+  font-size: 60px;
+  font-weight: 400;
+  max-width: 600px;
+  text-align: left;
+  color: white;
+  line-height: 1.1;
+  margin: 0 0 32px;
+}
+
+.search-hero__subtitle {
+  font-size: 18px;
+  font-weight: 400;
+  color: white;
+  max-width: 608px;
+  height: 24px;
+  margin: 0 0 88px;
+}
+
+@media (max-width: 1024px) {
+  .search-hero__content {
+    padding: 0 32px;
+  }
+
+  .search-hero__title {
+    font-size: 48px;
+  }
+}
+
+@media (max-width: 760px) {
+  .search-hero {
+    min-height: 60vh;
+  }
+
+  .search-hero__title {
+    font-size: 36px;
+    margin: 0 0 24px;
+  }
+
+  .search-hero__subtitle {
+    font-size: 16px;
+    margin: 0 0 40px;
+  }
+}
